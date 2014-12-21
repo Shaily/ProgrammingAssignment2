@@ -55,3 +55,8 @@ cacheSolve <- function(x, ...) {
         #return the inv
         inv
 }
+
+#Example to use 
+c=rbind(c(1, -1/4), c(-1/4, 1))
+x <- makeCacheMatrix(c)
+xInv <- cacheSolve(c)
